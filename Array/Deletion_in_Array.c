@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<10;i++){
         printf("%d ",array[i]);
     }
-    printf("Enter the choice as :\n1 -> from First position\n2 -> from Last position\n3 -> from any postion\n");
+    printf("\n\n1 -> from First position\n2 -> from Last position\n3 -> from any postion\n\nEnter the choice as :");
     scanf("%d",&choice);
     switch(choice){
         case 1:
